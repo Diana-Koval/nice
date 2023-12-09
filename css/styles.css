@@ -1,3 +1,9 @@
+:root {
+  --main-color:  #012D63 ;
+  --accent-color:  #8E32C6 ;
+  --add-color:  #C7C7C7 ;
+  --taxt-color: #FFFFFF ;
+}
 h1,
 h2,
 h3,
