@@ -1,8 +1,8 @@
 :root {
-  --main-color:  #012D63 ;
-  --accent-color:  #8E32C6 ;
-  --add-color:  #C7C7C7 ;
-  --taxt-color: #FFFFFF ;
+  --main-color: #012d63;
+  --accent-color: #8e32c6;
+  --add-color: #c7c7c7;
+  --text-color: #ffffff;
 }
 h1,
 h2,
@@ -45,4 +45,7 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+body {
+  font-family: "Roboto";
 }
