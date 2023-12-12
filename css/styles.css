@@ -48,4 +48,77 @@ img {
 }
 body {
   font-family: "Roboto";
+  color: var(--text-color);
+  background-color: var(--main-color);
+}
+header {
+  background-color: var(--main-color);
+}
+.logo {
+  width: 100px;
+  height: 60px;
+}
+.nav-item-link {
+  color: var(--add-color);
+  font-size: 24px;
+  line-height: normal;
+}
+.lang-btn {
+  color: var(--add-color);
+  font-size: 24px;
+  font-weight: 300;
+  line-height: normal;
+  border: none;
+  background-color: transparent;
+}
+.hero-logo {
+  width: 160px;
+  height: 120px;
+}
+.hero-logo-text {
+  font-family: "PT Serif";
+  font-size: 48px;
+  line-height: normal;
+}
+.hero-title {
+  font-family: "Playfair Display";
+  font-size: 144px;
+  font-weight: 400;
+  line-height: normal;
+}
+.hero-subtitle {
+  font-family: "Playfair Display";
+  font-size: 72px;
+  font-weight: 400;
+  line-height: normal;
+}
+.hero-text {
+  font-size: 18px;
+  line-height: normal;
+}
+.hero-btn {
+  color: var(--text-color);
+  font-size: 24px;
+  line-height: normal;
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 10px;
+}
+.features-item-title {
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: normal;
+}
+.features-item-img {
+  width: 240px;
+  height: 240px;
+}
+.reviews-title {
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: normal;
 }

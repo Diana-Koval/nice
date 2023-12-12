@@ -22,7 +22,7 @@
   <body>
     <header>
       <div class="container">
-        <a href="" class="logo"></a>
+        <img src="./images/nike_logo_img.svg" alt="logo" class="logo" />
         <nav class="header-nav">
           <ul class="header-nav-list list">
             <li class="nav-list-item">
@@ -56,12 +56,12 @@
       </div>
     </header>
     <main>
-      <h1 class="visually-hidden">Nike</h1>
       <section class="hero">
         <div class="container">
+          <img src="./images/nike_logo_img.svg" alt="logo" class="hero-logo" />
           <p class="hero-logo-text">С&R</p>
-          <h2 class="hero-title">ColoRawe</h2>
-          <h3 class="hero-subtitle">Your dream Nike</h3>
+          <h1 class="hero-title">ColoRawe</h1>
+          <h2 class="hero-subtitle">Your dream Nike</h2>
           <p class="hero-text">
             On this site you can find custom Nike sneakers of your dreams. The
             original company caт`t create such beautiful sneakers as we do. Good
@@ -74,13 +74,28 @@
         <div class="container">
           <ul class="features-list list">
             <li class="features-list-item">
-              <p class="features-item-text">Premium Quality</p>
+              <h3 class="features-item-title">Premium Quality</h3>
+              <img
+                src="./images/stars_img.svg"
+                alt="quality"
+                class="features-item-img"
+              />
             </li>
             <li class="features-list-item">
-              <p class="features-item-text">Indelible paint</p>
+              <img
+                src="./images/paint_img.svg"
+                alt="paint"
+                class="features-item-img"
+              />
+              <h3 class="features-item-title">Indelible paint</h3>
             </li>
             <li class="features-list-item">
-              <p class="features-item-text">Fast shipping</p>
+              <h3 class="features-item-title">Fast shipping</h3>
+              <img
+                src="./images/truck_img.svg"
+                alt="truck"
+                class="features-item-img"
+              />
             </li>
           </ul>
         </div>
@@ -96,7 +111,12 @@
                   worn off in a year.
                 </p>
                 <p class="reviews-article-date">25.11</p>
-                <p class="reviews-article-user">John Teylor</p>
+                <img
+                  src="./images/user1_img.jpg"
+                  alt="John Teylor"
+                  class="reviews-article-img"
+                />
+                <h4 class="reviews-article-user">John Teylor</h4>
                 <p class="reviews-article-user-data">With us from 2018</p>
               </article>
             </li>
@@ -107,7 +127,12 @@
                   clothes.
                 </p>
                 <p class="reviews-article-date">05.01</p>
-                <p class="reviews-article-user">Elizabeth Garsia</p>
+                <img
+                  src="./images/user2_img.jpg"
+                  alt="Elizabeth Garsia"
+                  class="reviews-article-img"
+                />
+                <h4 class="reviews-article-user">Elizabeth Garsia</h4>
                 <p class="reviews-article-user-data">With us from 2020</p>
               </article>
             </li>
@@ -118,7 +143,12 @@
                   the paint is super.
                 </p>
                 <p class="reviews-article-date">18.06</p>
-                <p class="reviews-article-user">Tom Maquare</p>
+                <img
+                  src="./images/user3_img.jpg"
+                  alt="Tom Maquare"
+                  class="reviews-article-img"
+                />
+                <h4 class="reviews-article-user">Tom Maquare</h4>
                 <p class="reviews-article-user-data">With us from 2019</p>
               </article>
             </li>
@@ -128,79 +158,76 @@
       <section class="order">
         <div class="container">
           <h2 class="order-title">Order</h2>
-          <ul class="order-list list">
-            <li class="order-list-item">
-              <input
-                type="text"
-                class="order-item-input"
-                placeholder="Write your email"
-              />
-            </li>
-            <li class="order-list-item">
-              <input
-                type="text"
-                class="order-item-input"
-                placeholder="Write your Country"
-              />
-            </li>
-            <li class="order-list-item">
-              <input
-                type="text"
-                class="order-item-input"
-                placeholder="Write your City"
-              />
-            </li>
-            <li class="order-list-item">
-              <input
-                type="text"
-                class="order-item-input"
-                placeholder="Write your Adress"
-              />
-            </li>
-          </ul>
-          <button class="order-btn" type="submit">Order my Nike</button>
+          <form action="" class="form">
+            <ul class="order-list list">
+              <li class="order-list-item">
+                <input
+                  type="text"
+                  class="order-item-input"
+                  placeholder="Write your email"
+                />
+              </li>
+              <li class="order-list-item">
+                <input
+                  type="text"
+                  class="order-item-input"
+                  placeholder="Write your Country"
+                />
+              </li>
+              <li class="order-list-item">
+                <input
+                  type="text"
+                  class="order-item-input"
+                  placeholder="Write your City"
+                />
+              </li>
+              <li class="order-list-item">
+                <input
+                  type="text"
+                  class="order-item-input"
+                  placeholder="Write your Adress"
+                />
+              </li>
+            </ul>
+            <button class="order-btn" type="submit">Order my Nike</button>
+          </form>
         </div>
       </section>
     </main>
     <footer>
       <div class="container">
-        <section class="footer-support">
-          <ul class="support-questions-list list">
-            <li class="questions-list-item">
-              <p class="questions-item-text">Have a question?</p>
-            </li>
-            <li class="questions-list-item">
-              <p class="questions-item-text">
-                Have a proposal for cooperation?
-              </p>
-            </li>
-            <li class="questions-list-item">
-              <p class="questions-item-text">Advertising questions?</p>
-            </li>
-          </ul>
-          <ul class="support-contacts-list list">
-            <li class="contact-list-item">
-              <a class="contacts-item-link" href=""
+        <div class="support-box">
+          <ul class="support-list list">
+            <li class="support-list-item">
+              <p class="support-item-text">Have a question?</p>
+              <a class="support-item-link" href=""
                 >ColoRawe_support@gmail.com</a
               >
             </li>
-            <li class="contact-list-item">
-              <a class="contacts-item-link" href=""
+            <li class="support-list-item">
+              <p class="support-item-text">Have a proposal for cooperation?</p>
+              <a class="support-item-link" href=""
                 >ColoRawe_Cooperation@gmail.com</a
               >
             </li>
-            <li class="contact-list-item">
-              <a class="contacts-item-link" href=""
+            <li class="support-list-item">
+              <p class="support-item-text">Advertising questions?</p>
+              <a class="support-item-link" href=""
                 >ColoRawe_Advertising@gmail.com</a
               >
             </li>
           </ul>
-        </section>
-        <section class="footer-info">
+        </div>
+        <div class="footer-info">
           <p class="footer-info-text">2022 ColoRawe @All rights reserved</p>
           <p class="footer-info-text">United States</p>
+          <img
+            src="./images/nike_logo_img.svg"
+            alt="logo"
+            class="footer-logo"
+          />
           <p class="footer-logo-text">С&R</p>
-        </section>
+        </div>
       </div>
     </footer>
   </body>
