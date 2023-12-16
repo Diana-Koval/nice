@@ -55,21 +55,35 @@ header {
   background-color: var(--main-color);
 }
 .container {
-  width: 1107px;
+  width: 1130px;
   margin: 0 auto;
   padding: 0 15px;
 }
-.header .container {
+.header {
   padding: 15px 0;
+}
+.header .container {
+  display: flex;
+  align-items: center;
 }
 .logo {
   width: 100px;
   height: 60px;
+  margin-right: 152px;
+}
+.header-nav-list {
+  display: flex;
+  gap: 29px;
 }
 .nav-item-link {
   color: var(--add-color);
   font-size: 24px;
   line-height: normal;
+  font-weight: 300;
+}
+.lang-list {
+  display: flex;
+  margin-left: auto;
 }
 .lang-btn {
   color: var(--add-color);
@@ -81,32 +95,41 @@ header {
 }
 .hero {
   padding-top: 94px;
-  padding-bottom: 120px;
+  padding-bottom: 183px;
+  background-image: url(../images/nike_hero_img.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .hero-logo {
   width: 160px;
   height: 120px;
+  margin-bottom: -20px;
 }
 .hero-logo-text {
   font-family: "PT Serif";
   font-size: 48px;
   line-height: normal;
+  margin-bottom: -20px;
 }
 .hero-title {
   font-family: "Playfair Display";
   font-size: 144px;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: -30px;
 }
 .hero-subtitle {
   font-family: "Playfair Display";
   font-size: 72px;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 8px;
 }
 .hero-text {
   font-size: 18px;
   line-height: normal;
+  margin-bottom: 41px;
+  width: 508px;
 }
 .hero-btn {
   color: var(--text-color);
@@ -120,6 +143,21 @@ header {
 }
 .features {
   padding: 105px 0;
+  background-image: url(../images/nike_bg_img1.jpg);
+  background-size: cover;
+}
+.features-list {
+  display: flex;
+  border: var(--accent-color) solid 5px;
+  padding: 25px 0;
+}
+.features-list-item {
+  padding: 25px 50px;
+}
+.features-list-item:nth-child(2) {
+  padding: 25px 95px 19px ;
+  border-right: var(--text-color) solid 2px;
+  border-left: var(--text-color) solid 2px;
 }
 .features-item-title {
   text-align: center;
@@ -136,12 +174,34 @@ header {
   padding-top: 24px;
   padding-bottom: 115px;
 }
+.reviews-list {
+  display: flex;
+  gap: 93px;
+  justify-content: center;
+}
+.reviews-list-item {
+  flex-basis: 255px ;
+  border-radius: 15px;
+}
+.reviews-list-item:nth-child(1) {
+background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
+}
+.reviews-list-item:nth-child(2) {
+background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
+}
+.reviews-list-item:nth-child(3) {
+background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
+}
 .reviews-title {
   text-align: center;
   font-family: "Playfair Display";
   font-size: 48px;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 24px;
 }
 .reviews-box-comment {
   font-size: 24px;
