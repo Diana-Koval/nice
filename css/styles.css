@@ -200,14 +200,6 @@ header {
   gap: 93px;
   justify-content: center;
 }
-/* .reviews-list::before{
-  background-image: url(../images/flowers_img.svg);
-  width: 340px;
-  height: 380px;
-  background-repeat: no-repeat;
-  background-position: left; 
-} */
-
 .reviews-list-item {
   flex-basis: 255px;
   border-radius: 15px;
