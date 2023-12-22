@@ -187,10 +187,11 @@ header {
   height: 240px;
 }
 .reviews {
-  background-image: url(../images/nike_bg_img2.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-image: url(../images/flowers_img.svg),
+    url(../images/nike_bg_img2.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left, center;
+  background-size: contain, cover;
   padding-top: 24px;
   padding-bottom: 115px;
 }
@@ -280,6 +281,7 @@ header {
 }
 .reviews-box-img {
   padding-right: 5px;
+  border-radius: 50%;
 }
 .order {
   padding-top: 20px;
@@ -319,11 +321,12 @@ header {
   padding-bottom: 12px;
   padding-left: 24px;
 }
-.order-item-input:hover, .order-item-input:focus {
+.order-item-input:hover,
+.order-item-input:focus {
   scale: 1.2;
 }
 .order-item-btn {
-  color: #8D8D8D;
+  color: #8d8d8d;
   font-family: "Roboto";
   font-size: 28px;
   font-style: normal;
@@ -335,7 +338,8 @@ header {
   border: none;
   background-color: var(--text-color);
 }
-.order-item-btn:hover, .order-item-btn:focus {
+.order-item-btn:hover,
+.order-item-btn:focus {
   cursor: pointer;
 }
 .order-form-btn {
