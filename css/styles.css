@@ -101,6 +101,7 @@ header {
 .lang-btn:hover,
 .lang-btn:focus {
   font-weight: 400;
+  cursor: pointer;
 }
 .hero {
   padding-top: 94px;
@@ -148,11 +149,12 @@ header {
   border: none;
   border-radius: 10px;
   width: 254px;
-  height: 67px;
+  padding: 20px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: rgba(75, 15, 120, 0.7);
+  cursor: pointer;
 }
 .features {
   padding: 105px 0;
@@ -188,6 +190,7 @@ header {
   background-image: url(../images/nike_bg_img2.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   padding-top: 24px;
   padding-bottom: 115px;
 }
@@ -216,7 +219,7 @@ header {
     #9a76f9 62.5%,
     #cc5ec2 100%
   );
-  box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7b54b2;
+  box-shadow: 0px 14px 0px -5px #7b54b2, 0px 30px 0px -13px #533978;
 }
 .reviews-list-item:nth-child(2) {
   background: linear-gradient(
@@ -226,7 +229,7 @@ header {
     #ce3aff 62.84%,
     #8961ff 100%
   );
-  box-shadow: 0px 30px 0px -13px #61337c, 0px 14px 0px -5px #9159b1;
+  box-shadow: 0px 14px 0px -5px #9159b1, 0px 30px 0px -13px #61337c;
 }
 .reviews-list-item:nth-child(3) {
   background: linear-gradient(
@@ -236,7 +239,7 @@ header {
     #ff8381 63.29%,
     #ff5489 100%
   );
-  box-shadow: 0px 30px 0px -13px #732f26, 0px 14px 0px -5px #b95a4c;
+  box-shadow: 0px 14px 0px -5px #b95a4c, 0px 30px 0px -13px #732f26;
 }
 .reviews-item-cower {
   padding: 49px 14px 29px;
@@ -284,6 +287,7 @@ header {
   background-image: url(../images/nike_bg_img3.jpg);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .order .container {
   display: flex;
@@ -301,16 +305,22 @@ header {
 .order-list-item {
   margin-bottom: 19px;
 }
+.order-list-item:first-child {
+  position: relative;
+}
 .order-item-input {
   font-size: 28px;
   line-height: normal;
   border: none;
   border-radius: 50px;
   width: 580px;
-  height: 50px;
+  padding: 11px 0;
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 24px;
+}
+.order-item-input:hover, .order-item-input:focus {
+  scale: 1.2;
 }
 .order-item-btn {
   color: #8D8D8D;
@@ -319,6 +329,14 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  border: none;
+  background-color: var(--text-color);
+}
+.order-item-btn:hover, .order-item-btn:focus {
+  cursor: pointer;
 }
 .order-form-btn {
   color: var(--text-color);
@@ -328,11 +346,14 @@ header {
   border-radius: 16px;
   background-color: var(--accent-color);
   width: 248px;
-  height: 68px;
+  padding: 20px 0;
+  display: block;
+  margin: 0 auto;
 }
 .order-form-btn:hover,
 .order-form-btn:focus {
   background-color: rgba(75, 15, 120, 0.7);
+  cursor: pointer;
 }
 .footer {
   padding-top: 45px;
@@ -356,6 +377,9 @@ header {
   font-size: 24px;
   line-height: normal;
   text-decoration-line: underline;
+}
+.footer {
+  background-color: #021635;
 }
 .footer-info {
   padding-top: 24px;
