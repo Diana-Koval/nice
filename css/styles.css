@@ -369,7 +369,8 @@ header {
   line-height: normal;
   text-decoration-line: underline;
 }
-.support-item-link:hover, .support-item-link:focus {
+.support-item-link:hover,
+.support-item-link:focus {
   cursor: pointer;
   font-weight: 700;
 }
@@ -397,4 +398,5 @@ header {
   font-family: "PT Serif";
   font-size: 24px;
   line-height: normal;
+  padding-left: 25px;
 }
